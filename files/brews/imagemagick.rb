@@ -6,14 +6,14 @@ class Imagemagick < Formula
   # upstream's stable tarballs tend to disappear, so we provide our own mirror
   # Tarball from: http://www.imagemagick.org/download/ImageMagick.tar.gz
   # SHA-256 from: http://www.imagemagick.org/download/digest.rdf
-  url 'http://downloads.sf.net/project/machomebrew/mirror/ImageMagick-6.8.0-10.tar.gz'
-  sha256 'b3dfcb44300f73e73ffa8deef8bba4cf43f03d7150bf1fd0febedceac1a45c7e'
+  url 'https://downloads.sf.net/project/machomebrew/mirror/ImageMagick-6.8.9-1.tar.xz'
+  sha256 '88e9f72cff22b91738494abe8b87f53c5b0c6932c4b08f944bf79846f035e642'
 
   option 'with-quantum-depth-8', 'Compile with a quantum depth of 8 bit'
   option 'with-quantum-depth-16', 'Compile with a quantum depth of 16 bit'
   option 'with-quantum-depth-32', 'Compile with a quantum depth of 32 bit'
 
-  version '6.8.0-10-boxen2'
+  version '6.8.9-1-boxen2'
 
   depends_on :libltdl
 
